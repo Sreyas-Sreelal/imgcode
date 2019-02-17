@@ -1,0 +1,3 @@
+ImgCode
+============
+An experimental project to generate gcode instructions from raster images.The gcode will be generated in a text file and can be then used to send to CNC machine.
