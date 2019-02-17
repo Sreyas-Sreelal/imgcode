@@ -1,8 +1,8 @@
-mod raster;
 mod gcode;
+mod raster;
 use crate::raster::RasterImageProcessor;
 
-fn main() -> Result<(),std::io::Error> {
+fn main() -> Result<(), std::io::Error> {
     let mut processor = RasterImageProcessor::new("image-samples/circle.png");
     //println!("height {} width {}",processor.img.height(),processor.img.width());
     processor.trace_shape();
